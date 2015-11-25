@@ -52,6 +52,6 @@
     <input type="submit" id="CreateRecord" value="CreateRecord" />
     </form>
 <a href="ListPerson"><strong>List of records</strong></a>
-<a href=""
+<a href="RemovePerson"><strong>Remove a record</strong></a>
 </body>
 </html>
