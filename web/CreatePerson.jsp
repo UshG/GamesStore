@@ -51,6 +51,7 @@
     </table>
     <input type="submit" id="CreateRecord" value="CreateRecord" />
     </form>
-<a href="ListPerson"><strong>Go to List of persons</strong></a>
+<a href="ListPerson"><strong>List of records</strong></a>
+<a href="RemovePerson"><strong>Remove a record</strong></a>
 </body>
 </html>

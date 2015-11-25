@@ -44,8 +44,30 @@ on Libraries node in Projects view can be used to add the JSTL 1.1 library.
 
 <html>
     <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="C:/Users/User/Downloads/College/AffableBean_snapshot1/web/css/affablebean.css">
+    <title>Super Awesome Online Game Store (That's 1000x cooler than Steam)</title>
+    <a href="register.jsp"><strong>Register here</strong></a> <text>or</text> <a href="login.jsp"><strong>Login</strong></a>
+    <h1>Online Games Store (Working Title)</h1>
     </head>
     <body>
-    <jsp:forward page="ListPerson" />
+    <div id="header">
+        <div id="widgetBar">
+            
+            <div class="headerWidget">
+                [ language toggle ]
+            </div>
+            
+            <div class="headerWidget">
+                [ shopping cart widget ]
+            </div>
+            
+        </div>
+        <text>Search for games here...</text> <input type="submit" id="SearchGames" value="Search" />
+           
+        <a href="shoppingCart.jsp"><strong>Shopping Cart</strong></a>
+        <a href="checkout.jsp"><strong>Checkout</strong></a>
+       
+    </div>
     </body>
 </html>

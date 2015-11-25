@@ -44,7 +44,7 @@ import javax.transaction.UserTransaction;
 
 
 /**
- * The sevelet class to insert Person into database
+ * The servlet class to insert Person into database
  */
 @WebServlet(name="CreatePersonServlet", urlPatterns={"/CreatePerson"})
 public class CreatePersonServlet extends HttpServlet {
