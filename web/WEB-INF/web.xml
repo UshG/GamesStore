@@ -4,9 +4,17 @@
         <servlet-name>BrowseGamesServlet</servlet-name>
         <servlet-class>enterprise.web_jpa_war.servlet.BrowseGamesServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ListGamesServlet</servlet-name>
+        <servlet-class>servlets.ListGamesServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BrowseGamesServlet</servlet-name>
         <url-pattern>/BrowseGames</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListGamesServlet</servlet-name>
+        <url-pattern>/ListGames</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
