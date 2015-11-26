@@ -38,6 +38,8 @@
       <!-- use this property if target server uses toplink
       <property name="toplink.ddl-generation" value="drop-and-create-tables"/>
       -->
+      <property name="eclipselink.logging.level" value="FINEST"/>
+<!-- set the logging level property to FINEST so that you can view all possible output produced by the persistence provider when the application runs -->
     </properties>
   </persistence-unit>
 </persistence>
